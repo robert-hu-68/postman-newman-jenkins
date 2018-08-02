@@ -1,0 +1,15 @@
+{
+  "name": "postman-newman-jenkins",
+  "version": "1.0.0",
+  "description": "Postman Tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-qa": "newman run tests/JsonPlaceHolderAPITest.postman_collection.json"
+  },
+  "author": "Robert Hu",
+  "dependencies": {
+    "newman": "^3.10.0"
+  }
+}
